@@ -1,0 +1,20 @@
+{
+  "name": "capagent",
+  "version": "1.0.0",
+  "description": "Capability-Based Agent Authorization System",
+  "main": "src/agent/index.js",
+  "scripts": {
+    "build": "hardhat compile && node src/agent/build.js",
+    "test": "hardhat test",
+    "node": "node src/agent/index.js",
+    "frontend": "cd src/frontend && npm start",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
