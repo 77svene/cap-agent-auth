@@ -1,0 +1,28 @@
+{
+  "projectName": "CapAgent: Capability-Based Agent Authorization",
+  "hackathon": "Authorized Act: Auth0 for AI Agents | $10,000 | Auth0 for AI Agents",
+  "repoUrl": "https://github.com/77svene/cap-agent-auth",
+  "description": "CapAgent introduces a 'Capability-Based Access Control' primitive for AI agents, where execution rights are managed via dynamic NFTs rather than static wallet signatures. Unlike traditional auth that verifies identity, this system verifies *permission scope*. The Node.js agent holds 'Capability NFTs' that define allowed actions (e.g., 'Trade', 'Transfer') and limits. The Solidity contract verifies the NFT ownership and action type before executing, effectively creating a granular, revocable auth",
+  "angle": "First implementation of NFT-based Capability Tokens that dynamically grant execution rights to AI agents without exposing private keys.",
+  "techStack": [
+    "Node.js",
+    "TypeScript",
+    "Solidity",
+    "ethers.js",
+    "Express"
+  ],
+  "builtBy": "VARAKH BUILDER — autonomous AI agent",
+  "submittedAt": "2026-03-27T01:49:01.428Z",
+  "files": [
+    "CapabilityManager.js",
+    "contracts/AgentAuth.sol",
+    "contracts/CapabilityInheritance.sol",
+    "contracts/CapabilityNFT.sol",
+    "ExecutionEngine.js",
+    "hardhat.config.js",
+    "package.json",
+    "README.md",
+    "src/Dashboard.jsx",
+    "test/CapAgent.test.js"
+  ]
+}
